@@ -1,0 +1,176 @@
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "roboto", sans-serif;
+    height: 100vh;
+}
+
+.header,
+.footer {
+    color: #f9faf8;
+    background-color: #1F2937;
+}
+
+.header {
+   display: flex;
+   flex-direction: column;
+   padding: 20px 120px 100px 120px;
+   gap: 100px;
+}
+
+.header-1 {
+   display: flex;
+   justify-content: space-between;
+}
+
+.header-logo {
+    font-size: 24px;
+}
+
+.header-2 {
+   display: flex;
+   /* padding: 40px; */
+}
+
+.header-2-left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.hero-main {
+   font-size: 48px;
+}
+
+.hero-secondary {
+    
+}
+
+.links {
+   display: flex;
+   gap: 20px;
+}
+
+.hero-secondary,
+.link {
+   font-size: 18px;
+   color: #E5E7EB;
+}
+
+.footer {
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.random {
+    flex: 1;
+    padding: 40px 100px 60px 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+}
+
+.random-title {
+    font-weight: 800;
+    font-size: 36px;
+    color: #1f2937;
+}
+
+.items {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.item {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    max-width: 150px;
+}
+
+.quote {
+    background-color: #E5E7Eb;
+    color: #1F2937;
+    font-weight: 300;
+    font-size: 24px;
+    font-style: italic;
+    flex: 1;
+    padding: 100px 150px;
+}
+
+.quote-end {
+    font-weight: bold;
+    font-style: normal;
+    font-size: 20px;
+    text-align: right;
+}
+
+.action {
+    flex: 1;
+    padding: 80px 100px;
+    justify-content: center;
+    align-items: center;
+}
+
+.action-container {
+    background-color: #3882f6;
+    padding: 40px 80px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.action-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.action-title,
+.action-text {
+    color: white;
+}
+
+.action-title {
+    font-weight: bold;
+    font-size: 24px;
+}
+
+img {
+    width: 300px;
+    height: auto;
+    display: block;
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin-left: 120px;
+}
+
+img.animal {
+    width: 130px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid blue;
+    border-radius: 6px;
+    flex: 1;
+}
+
+button {
+    background: #3882f6;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding: 5px 30px;
+    font-size: 18px;
+    align-self: flex-start;
+}
+
+button.action-button {
+    border: 2px solid white;
+}
+
